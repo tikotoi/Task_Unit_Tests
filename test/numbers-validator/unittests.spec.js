@@ -38,7 +38,7 @@ describe("getEventNumbersFromArray", () => {
 
   it("Should throw an error when passed value is not array of numbers", () => {
     const arr = ["3", "4", 8, 11, 24, 20];
-    const result = validator.getEvenNumbersFromArray.bind(this, arr);
+    const result = validator.getEvenNumbersFromArray.bind(null, arr);
     expect(result).to.throw(`[${arr}] is not an array of "Numbers"`);
   });
 
