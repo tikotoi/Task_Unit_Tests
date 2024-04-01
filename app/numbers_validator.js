@@ -38,7 +38,7 @@ export class NumbersValidator {
 
   /**
 * Check if passed value is integer
-* @param n - value
+* @param {number} n - value
 * @return {boolean} true if value is integer
 */
   isInteger(n) {
